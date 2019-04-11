@@ -1,0 +1,83 @@
+/* navbar */
+#navbar {
+    padding: 10px;
+}
+
+.brand-text{
+    font-size: 30px;   
+    color: rgb(226, 226, 190);
+}
+.logo-picture { 
+   height: 50px;
+   width: 60px; 
+   padding-bottom: 10px;
+}
+
+#navbar-links ul li {
+    border: 2px solid black;
+    border-radius: 5px; 
+    height: 40px;
+}
+
+#navbar-links ul li a {
+    margin-top: -7px;
+}
+
+#navbar-links ul li a:hover {
+    background: #EDDCCC;
+    border-radius: 5px;
+}
+
+
+/* header */
+
+#header {
+    margin-top: -20px;
+    height: 300px;
+    width: 100%;
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header-text {
+    text-align: center;
+    color: #FFFFFF}
+
+/* Main */
+
+.item {
+    background: #EDDCCC;
+    text-align: center;
+}
+
+.item-picture {
+    padding: 10px;
+}
+
+.services {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.services h3 {
+    font-weight: bold;
+}
+
+.service-button {
+    background-color: #EDDCCC;
+    width: 250px;
+}
+
+/* footer */
+
+#footer {
+    background: #EDDCCC;
+}
+
+.footer-section-1 {
+    border-right: 3px solid black;
+}
+.footer-img {
+    height: 100px;
+}

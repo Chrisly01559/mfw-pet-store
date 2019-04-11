@@ -1,17 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Pet Store</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pet Store</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- Main.css -->
+	<link rel="stylesheet" href="css/main.css">
+
+	
+	
 </head>
 <body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-default " id="navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-links">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>			
+				<a href="#" class="navbar-brand logo">
+					<span><img src="img/petstore_logo.png" alt="Pet Store Logo" class="logo-picture"></span>
+					<span class="brand-text">Pet Store</span>
+				</a>
+			</div>
+			<div id="navbar-links" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"  class="active">Home</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Contact Us</a></li>		
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!-- header -->
 
-	<!-- scripts -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<header id="header">
+		<div class="container-fluid header-picture">
+			<h3 class="header-text">THE PRODUCTS THEY LOVE PRICES THAT YOU LIKE.</h3>	
+		</div>
+	</header>
+	
+	<!-- Main -->
+	<section id="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<h3>FEATURED</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, odio!</p>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="thumbnail item">
+								<img src="img/product1.jpg" alt="Product 1" class="item-picture">
+								<div class="caption">
+									<h3>Dog Bowl</h3>
+									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+									<button type="button" class="btn btn-default">Purchase Now</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+								<div class="thumbnail item ">
+									<img src="img/product2.jpg" alt="Product 1" class="item-picture">
+									<div class="caption">
+										<h3>Cat Toy</h3>
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+										<button type="button" class="btn btn-default">Purchase Now</button>
+									</div>
+								</div>
+							</div>
+						<div class="col-md-4">
+							<div class="thumbnail item ">
+								<img src="img/product3.jpg" alt="Product 1" class="item-picture">
+								<div class="caption">
+									<h3>Parrot Toy</h3>
+									<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+									<button type="button" class="btn btn-default">Purchase Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="row">
+						<div class="col services">
+							<h3>SERVICES</h3>
+							<button class="btn btn-default service-button">Adopt A Cat</button>
+							<p>Lorem ipsum dolor sit amet.</p>
+							<button class="btn btn-default service-button">Adopt A Cat</button>
+							<p>Lorem ipsum dolor sit amet.</p>
+							<button class="btn btn-default service-button">Adopt A Cat</button>
+							<p>Lorem ipsum dolor sit amet.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 footer-section-1">
+					<img src="img/petstore_logo.png" alt="Petstore" class="footer-img">
+				</div>
+				<div class="col-md-3">
+					
+				</div>
+				<div class="col-md-6">
+					
+				</div>
+			</div>
+		</div>
+	</footer>
+    <!-- Javascript Files -->
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/jquery-3.3.0.min.js"></script>
+	<!-- Boostrap Js-->
 	<script src="js/bootstrap.min.js"></script>
+	<!-- Fontawesome Js-->
+	<script src="js/all.js"></script>
+    <!-- Main.js -->   
+    <script src="js/main.js"></script>
 </body>
 </html>
