@@ -1,83 +1,33 @@
-/* navbar */
-#navbar {
-    padding: 10px;
+@import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
+
+.logo {
+    width: 70px;
 }
 
-.brand-text{
-    font-size: 30px;   
-    color: rgb(226, 226, 190);
-}
-.logo-picture { 
-   height: 50px;
-   width: 60px; 
-   padding-bottom: 10px;
+header h1 {
+    color: #c9c983;
+    font-family:'Satisfy', cursive;
+    margin-top: 20px;
 }
 
-#navbar-links ul li {
-    border: 2px solid black;
-    border-radius: 5px; 
-    height: 40px;
+.nav-pills > li.active > a {
+    color: #5c435c;
+    background-color: #eeddcd;
 }
-
-#navbar-links ul li a {
-    margin-top: -7px;
+.nav-pills > li.active > a:hover, 
+.product button:hover,
+footer a:hover {
+    background-color: #eeddcd;
+    color: #5c433f;
 }
-
-#navbar-links ul li a:hover {
-    background: #EDDCCC;
-    border-radius: 5px;
-}
-
-
-/* header */
-
-#header {
-    margin-top: -20px;
-    height: 300px;
-    width: 100%;
-    background-image: url("../img/hero.jpg");
-    background-size: cover;
+.jumbotron {
+    background-image: url(../img/hero.jpg);
+    height: 450px;
     background-position: center;
 }
 
-.header-text {
-    text-align: center;
-    color: #FFFFFF}
-
-/* Main */
-
-.item {
-    background: #EDDCCC;
-    text-align: center;
-}
-
-.item-picture {
-    padding: 10px;
-}
-
-.services {
-    text-align: center;
-    margin-top: 130px;
-}
-
-.services h3 {
-    font-weight: bold;
-}
-
-.service-button {
-    background-color: #EDDCCC;
-    width: 250px;
-}
-
-/* footer */
-
-#footer {
-    background: #EDDCCC;
-}
-
-.footer-section-1 {
-    border-right: 3px solid black;
-}
-.footer-img {
-    height: 100px;
+.jumbotron h2 {
+    color:#fff;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
 }
